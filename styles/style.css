@@ -8,7 +8,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* nav styles started here */
+/* nav styles starts here */
 nav {
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
@@ -80,7 +80,7 @@ nav {
     height: 24px;
 }
 
-/* banner section started here */
+/* banner section styles starts here */
 
 .banner-container {
     min-height: 50px;
@@ -156,9 +156,51 @@ nav {
     padding-right: 209px;
 }
 
-.online-game {
+.supported-online-games {
     padding-right: 20px;
 }
+
+/* online game section styles starts here */
+
+.online-game-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 120px;
+    text-align: center;
+}
+
+.funny-video-text {
+    background-image: linear-gradient(#F948B2, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.online-game-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+    text-align: center;
+}
+
+.online-games-cards-container {
+    max-width: 1400px;
+    margin: 48px auto 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-description {
+    padding-top: 24px;
+}
+
 
 
 
@@ -189,6 +231,9 @@ nav {
 /* responsive for mobile devices */
 
 @media screen and (max-width:425px) {
+
+    /*  nav and banner section responsive starts here */
+
     .nav {
         width: 100%;
     }
@@ -224,9 +269,9 @@ nav {
         margin-left: 100px;
     }
 
-    /* nav section end here */
+    /* nav and banner section responsive end here */
 
-    /* banner section started here */
+    /* banner section responsive started here */
     .banner-container {
         flex-direction: column;
     }
@@ -257,7 +302,22 @@ nav {
         margin-bottom: 50px;
     }
 
-    /* banner section end here */
+    /* banner section responsive end here */
 
+    /* online game section responsive starts here */
+
+    .online-games-cards-container {
+        grid-template-columns: 1fr;
+    }
+    .online-game-description{
+        width: 90%;
+        margin-left: 15px;
+    }
+    .card-description{
+        width: 90%;
+        margin-left: 18px;
+    }
+
+    /* online game section responsive end here */
 
 }
