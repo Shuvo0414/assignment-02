@@ -164,7 +164,7 @@ nav {
 
 .online-game-title {
     color: #0B0223;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
     margin-top: 120px;
     text-align: center;
@@ -178,7 +178,7 @@ nav {
 
 .online-game-description {
     color: #534C64;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     margin-top: 16px;
     text-align: center;
@@ -201,8 +201,57 @@ nav {
     padding-top: 24px;
 }
 
+/* Play Instantly section styles starts here */
 
+.play-instantly {
+    max-width: 1400px;
+    margin: 120px auto 0;
+    display: flex;
+    align-items: center;
+    gap: 260px;
 
+}
+
+.play-instantly-content {
+    width: 60%;
+    margin-bottom: 220px;
+}
+
+.play-instantly-img {
+    width: 60%;
+}
+
+.play-instantly-img img {
+    width: 100%;
+
+}
+
+.play-instantly-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 200px;
+    text-align: center;
+}
+
+.play-instantly-text {
+    color: #F948B2;
+}
+
+.play-instantly-description {
+    color: #534C64;
+    font-size: 1.125;
+    font-weight: 400;
+    margin-left: 300px;
+    margin-top: 24px;
+}
+
+.dool-img img {
+    width: 50%;
+    position: relative;
+    bottom: 240px;
+    right: 150px;
+}
 
 
 
@@ -309,15 +358,67 @@ nav {
     .online-games-cards-container {
         grid-template-columns: 1fr;
     }
-    .online-game-description{
+
+    .online-game-description {
         width: 90%;
         margin-left: 15px;
     }
-    .card-description{
+
+    .card-description {
         width: 90%;
         margin-left: 18px;
     }
 
     /* online game section responsive end here */
+
+    /* play intantly section responsive starts here */
+    .play-instantly {
+        flex-direction: column;
+    }
+
+    .play-instantly-content {
+        width: 100%;
+        margin-bottom: -200px;
+    }
+
+    .play-instantly-img {
+        width: auto;
+        height: 100px;
+        margin-bottom: 150px;
+
+    }
+
+    .play-instantly-img img {
+        height: 370px;
+        width: 70%;
+        margin-left: 120px;
+    }
+
+    .dool-img img {
+        width: 45%;
+        height: 220px;
+        position: relative;
+        bottom: 180px;
+        margin-left: 190px;
+    }
+
+    .play-instantly-title {
+        margin-left: 20px;
+        text-align: center;
+    }
+
+    .play-instantly-description {
+        width: auto;
+        padding: 20px;
+        margin-left: 5px;
+        margin-top: 24px;
+        text-align: center;
+    }
+
+    /* play intantly section responsive end here  */
+
+
+
+
 
 }
