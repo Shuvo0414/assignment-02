@@ -72,12 +72,15 @@ nav {
     color: #F61C0D;
     width: 33.916px;
     height: 24px;
+    padding-bottom: 40px;
 }
 
 .nav-items-container .fa-tiktok {
     margin-left: 16px;
     width: 24px;
     height: 24px;
+    padding-bottom: 40px;
+    color: #000000;
 }
 
 /* banner section styles starts here */
