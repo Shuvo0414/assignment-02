@@ -200,6 +200,44 @@ nav {
     width: 100%;
 }
 
+.breaking-img-container {
+    position: relative;
+}
+
+.breaking-img {
+    display: block;
+    width: 100%;
+}
+
+.over-lay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85.2%;
+    border-radius: 19.9px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.over-lay:hover {
+    opacity: 1;
+}
+
+.over-lay-title {
+    font-size: 3rem;
+}
+
+.watch-now {
+    color: #F948B2;
+    font-size: 1.5rem;
+}
+
 .card-description {
     padding-top: 24px;
 }
@@ -477,6 +515,14 @@ nav {
         grid-template-columns: 1fr;
     }
 
+    .over-lay {
+        width: 100%;
+
+        height: 88.7%;
+
+    }
+
+
     .online-game-description {
         width: 90%;
         margin-left: 15px;
@@ -678,6 +724,21 @@ nav {
     .online-games-cards-container {
         gap: 10px;
         padding: 8px;
+    }
+
+    .over-lay {
+        width: 100%;
+        height: 70.5%;
+        border-radius: 10px;
+
+    }
+
+    .over-lay-title {
+        font-size: 2rem;
+    }
+
+    .watch-now {
+        font-size: 1rem;
     }
 
     /* online-game secton responsive end here */
