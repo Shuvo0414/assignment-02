@@ -220,11 +220,11 @@ nav {
     margin-bottom: 220px;
 }
 
-.play-instantly-img {
+.play-instantly-img-container {
     width: 60%;
 }
 
-.play-instantly-img img {
+.play-instantly-img-container img {
     width: 100%;
 
 }
@@ -249,7 +249,7 @@ nav {
     margin-top: 24px;
 }
 
-.dool-img img {
+.dool-img-container img {
     width: 50%;
     position: relative;
     bottom: 240px;
@@ -317,7 +317,7 @@ nav {
     color: #FFF;
 }
 
-.footer-title {
+.footer-title-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -379,18 +379,7 @@ nav {
     font-weight: 500;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer section end here */
 
 
 
@@ -505,20 +494,20 @@ nav {
         margin-bottom: -200px;
     }
 
-    .play-instantly-img {
+    .play-instantly-img-container {
         width: auto;
         height: 100px;
         margin-bottom: 150px;
 
     }
 
-    .play-instantly-img img {
+    .play-instantly-img-container img {
         height: 370px;
         width: 70%;
         margin-left: 120px;
     }
 
-    .dool-img img {
+    .dool-img-container img {
         width: 45%;
         height: 220px;
         position: relative;
@@ -540,14 +529,16 @@ nav {
     }
 
     /* play intantly section responsive end here  */
+
     /* btn-container section reponsive starts here  */
     .btn-container {
         width: 100%;
-        margin-top: 200px;
+        margin-top: 250px;
     }
 
     .btn {
-        width: 40%;
+        gap: 2px;
+        width: 25%;
         height: 50%;
         margin-right: 5px;
     }
@@ -589,5 +580,180 @@ nav {
     }
 
     /* footer section responsive end here */
+
+}
+
+/* responsive for medium/tablet devices */
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+
+    /* nav section responsive starts here */
+    .nav {
+        width: 100%;
+    }
+
+    .nav-container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .logo-container img {
+        width: 22%;
+        margin-left: 10px;
+    }
+
+    .logo-container h3 {
+        font-size: 2.5rem;
+    }
+
+    .nav-items-container {
+        flex-wrap: wrap;
+        gap: 100px;
+        margin-bottom: 15px;
+        align-items: center;
+
+    }
+
+    .nav-items-container a {
+        margin-right: 20px;
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin-top: 10px;
+
+    }
+
+    .flow-us {
+        padding: 3px
+    }
+
+    .fa-youtube {
+        margin-right: 7px;
+    }
+
+    .fa-tiktok {
+        margin-right: 10px;
+    }
+
+    /* nav section responsive end here */
+
+    /* banner section responsive starts here */
+
+    .banner-content h3 {
+        font-size: 2.5rem;
+    }
+
+    .banner-content h1 {
+        font-size: 4.5rem;
+    }
+
+    .banner-content p {
+        font-size: 1rem;
+    }
+
+    .instant-click {
+        padding-left: 16px;
+    }
+
+    .no-download {
+        padding-right: 175px;
+    }
+
+    /* banner section responsive end here */
+
+    /* online-game secton responsive starts here */
+
+    .online-game-title {
+        font-size: 2.5rem;
+    }
+
+    .online-game-description {
+        font-size: 1rem;
+    }
+
+    .online-games-cards-container {
+        gap: 10px;
+        padding: 8px;
+    }
+
+    /* online-game secton responsive end here */
+
+
+    /* play-instantly section responsive starts here */
+
+    .play-instantly {
+        width: 100%;
+
+    }
+
+    .play-instantly-content {
+        width: 100%;
+
+
+    }
+
+    .play-instantly-title {
+        font-size: 2rem;
+        margin-left: 2px;
+    }
+
+    .play-instantly-description {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    .play-instantly-img-container img {
+        width: 300px;
+    }
+
+    .dool-img-container {
+        margin-top: 95px;
+        margin-left: 60px;
+    }
+
+    .dool-img-container img {
+        width: 140px
+    }
+
+    /* play-instantly section responsive end here */
+
+    /* btn-container section responsive starts here */
+
+    .btn-container {
+        width: 100%;
+        /* margin-top: 20px; */
+    }
+
+    .btn {
+        width: 30%;
+        height: 50%;
+        margin-right: 5px;
+        padding-left: 20px;
+    }
+
+    .btn img {
+        width: 40px;
+    }
+
+    .btn p {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    /* btn-container section responsive end here  */
+
+    /* footer section responsive starts here */
+
+    .footer-title-container {
+        gap: 43px;
+    }
+
+    .footer-description-container {
+        margin-top: 40px;
+
+    }
+
+    /* footer section responsive end here */
+
 
 }
